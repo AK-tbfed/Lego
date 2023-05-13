@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore the world of LEGO® through games, videos, products and more! Shop awesome LEGO® building toys and brick sets and find the perfect gift for your children.">
+    <meta name="author" content="Abdelrahman Khaled">
+    <meta name="theme-color" content="#f42b23">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Favicon -->
+    <link rel="icon" href="images/favicon.svg">
+    <!-- Normalize Library -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Prompt:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <title>Lego | Login</title>
+  </head>
+  <body>
+    <!-- Start Login Page -->
+    <section class="login">
+      <div class="container">
+        <div class="login-content">
+          <a href="login.html" class="logo"><img src="images/account-logo.svg" alt="Lego Account Logo"></a>
+          <img src="images/figure-image.avif" alt="Figure Image" class="figure-image">
+          <form action="login.php">
+            <div class="input-field-box">
+              <label for="name">Username</label>
+              <input type="text" name="Username" placeholder="Username" id="name" required>
+            </div>
+            <div class="input-field-box">
+              <label for="pass">Password</label>
+              <input type="password" name="Password" placeholder="**********" id="pass" required>
+            </div>
+            <div class="remember-box">
+              <input type="checkbox" name="Remember" id="remember">
+              <label for="remember">Remember Me</label>
+            </div>
+            <p class="remeber-paragraph">Remember to log out afterwards if you’re using a shared computer, for example in a library or school.</p>
+            <button type="submit">Log In</button>
+            <ul class="help">
+              <li><a href="#">Forgot Username?</a></li>
+              <li><a href="#">Forgot Password?</a></li>
+            </ul>
+          </form>
+          <div class="create-account">
+            <p>Don’t have a LEGO® Account?</p>
+            <a href="signup.html">Create Account</a>
+          </div>
+          <div class="break-line">Or</div>
+          <div class="social-login-platforms">
+            <a href="#" class="box facebook">
+              <div class="icon"><img src="images/facebook-icon.avif" alt="Facebook Icon"></div>
+              <p>Comtinue With Facebook</p>
+            </a>
+            <a href="#" class="box google">
+              <div class="icon"><img src="images/google-icon.svg" alt="Google Icon"></div> 
+              <p>Comtinue With Google</p>
+            </a>
+            <a href="#" class="box apple">
+              <div class="icon"><img src="images/apple-icon.svg" alt="Apple Icon"></div> 
+              <p>Comtinue With Apple</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Login Page -->
+  </body>
+</html>
